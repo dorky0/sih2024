@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dbdbdbe1;
+}
+
+header {
+    background-color: #1f16ca;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin:4px;
+   
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(199, 244, 255);   
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(48, 51, 49, 0.2);
+    margin: 25px auto;
+    max-width: 85%;
+}
+.det_list {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 550;
+
+}
+
+
+h1 {
+    color: #ffffff;
+}
+
+.resource-button {
+    display: block;
+    background-color: #1118e0;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+.resource-button:hover {
+    background-color: #14128f;
+    transform: rotate(0.2deg);
+
+  -webkit-transform: rotate(0.2deg);
+ 
+}
+
+
+.container1 {
+    background-color: #0e2597;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(65, 65, 65, 0.2);
+    text-align: center;
+}
+input[type="password"] {
+    padding: 5px 40%; /* Increase padding for a larger box */
+    width: 35px; /* Adjust width for a larger box */
+    height: 29px; /* Adjust height for a larger box */
+    border: 7px solid #ddd;
+    border-radius: 5px;
+    margin: 8px;
+    font-size: 20px;
+}
+
+.buttonn {
+    padding: 2%;
+    padding-left: 10%;
+    padding-right:10%;
+    background-color: #3700ff;
+    color: #ffffff;
+    font-size: 35px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    
+    transition: background-color 0.5s;
+}
+
+.buttonn:hover {
+    background-color: #1d187c;
+}
+
+#hiddenContent {
+    display: none;
+    margin-top: 15px;
+    background-color: #000000;
+    color: #0b859d;
+    font-size: 20px;
+    font-family: Arial Narrow, sans-serif;
+    border-radius: 2%;
+}
+.pswd {
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+    background-color: #000000;
+    margin-left: 12%;
+    margin-right: 12%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 10%;
+  }
+  i {
+    color : rgb(255, 0, 179);
+  }
+  a {
+    text-decoration:none;
+    color:white;  
+}
+
+
+
+#footer {
+      text-align: center;
+      padding: 1em;
+      position: sticky;
+      bottom: 0;
+      margin-top: 20%;
+ }
+
+
